@@ -46,6 +46,7 @@ namespace proyecto1
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 85F));
@@ -75,16 +76,21 @@ namespace proyecto1
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.checkBox1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.checkBox1.Location = new System.Drawing.Point(3, 417);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(58, 17);
+            this.checkBox1.Size = new System.Drawing.Size(73, 22);
             this.checkBox1.TabIndex = 1;
             this.checkBox1.Text = "Ajustar";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.flowLayoutPanel1.Controls.Add(this.showButton);
             this.flowLayoutPanel1.Controls.Add(this.clearButton);
             this.flowLayoutPanel1.Controls.Add(this.backgroundButton);
@@ -99,9 +105,11 @@ namespace proyecto1
             // showButton
             // 
             this.showButton.AutoSize = true;
-            this.showButton.Location = new System.Drawing.Point(528, 3);
+            this.showButton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.showButton.Location = new System.Drawing.Point(486, 3);
             this.showButton.Name = "showButton";
-            this.showButton.Size = new System.Drawing.Size(89, 23);
+            this.showButton.Size = new System.Drawing.Size(131, 27);
             this.showButton.TabIndex = 0;
             this.showButton.Text = "Mostrar imagen";
             this.showButton.UseVisualStyleBackColor = true;
@@ -110,9 +118,11 @@ namespace proyecto1
             // clearButton
             // 
             this.clearButton.AutoSize = true;
-            this.clearButton.Location = new System.Drawing.Point(440, 3);
+            this.clearButton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.clearButton.Location = new System.Drawing.Point(359, 3);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(82, 23);
+            this.clearButton.Size = new System.Drawing.Size(121, 27);
             this.clearButton.TabIndex = 1;
             this.clearButton.Text = "Borrar imagen";
             this.clearButton.UseVisualStyleBackColor = true;
@@ -121,20 +131,25 @@ namespace proyecto1
             // backgroundButton
             // 
             this.backgroundButton.AutoSize = true;
-            this.backgroundButton.Location = new System.Drawing.Point(296, 3);
+            this.backgroundButton.Cursor = System.Windows.Forms.Cursors.PanNW;
+            this.backgroundButton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backgroundButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.backgroundButton.Location = new System.Drawing.Point(256, 3);
             this.backgroundButton.Name = "backgroundButton";
-            this.backgroundButton.Size = new System.Drawing.Size(138, 23);
+            this.backgroundButton.Size = new System.Drawing.Size(97, 27);
             this.backgroundButton.TabIndex = 2;
-            this.backgroundButton.Text = "Establecer color de fondo";
+            this.backgroundButton.Text = "Color de fondo";
             this.backgroundButton.UseVisualStyleBackColor = true;
             this.backgroundButton.Click += new System.EventHandler(this.backgroundButton_Click);
             // 
             // closebutton
             // 
             this.closebutton.AutoSize = true;
-            this.closebutton.Location = new System.Drawing.Point(215, 3);
+            this.closebutton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closebutton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.closebutton.Location = new System.Drawing.Point(175, 3);
             this.closebutton.Name = "closebutton";
-            this.closebutton.Size = new System.Drawing.Size(75, 23);
+            this.closebutton.Size = new System.Drawing.Size(75, 27);
             this.closebutton.TabIndex = 3;
             this.closebutton.Text = "Cerrar";
             this.closebutton.UseVisualStyleBackColor = true;
@@ -152,11 +167,14 @@ namespace proyecto1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(736, 461);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Cursor = System.Windows.Forms.Cursors.PanNW;
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "FormaVisor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Picture Viewer";
+            this.Text = "Visor de Imagenes";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
