@@ -43,9 +43,9 @@ namespace proyecto1.Formu
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.ecuacionCuadraticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.latidosPorMinutoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.visorDeImagenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactanosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.visorDeImagenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +73,7 @@ namespace proyecto1.Formu
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -156,6 +156,13 @@ namespace proyecto1.Formu
             this.latidosPorMinutoToolStripMenuItem.Text = "Ecuacion cuadratica";
             this.latidosPorMinutoToolStripMenuItem.Click += new System.EventHandler(this.latidosPorMinutoToolStripMenuItem_Click);
             // 
+            // visorDeImagenesToolStripMenuItem
+            // 
+            this.visorDeImagenesToolStripMenuItem.Name = "visorDeImagenesToolStripMenuItem";
+            this.visorDeImagenesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.visorDeImagenesToolStripMenuItem.Text = "Visor de Imagenes";
+            this.visorDeImagenesToolStripMenuItem.Click += new System.EventHandler(this.visorDeImagenesToolStripMenuItem_Click);
+            // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -167,16 +174,9 @@ namespace proyecto1.Formu
             // contactanosToolStripMenuItem
             // 
             this.contactanosToolStripMenuItem.Name = "contactanosToolStripMenuItem";
-            this.contactanosToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.contactanosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.contactanosToolStripMenuItem.Text = "Contactanos";
             this.contactanosToolStripMenuItem.Click += new System.EventHandler(this.contactanosToolStripMenuItem_Click);
-            // 
-            // visorDeImagenesToolStripMenuItem
-            // 
-            this.visorDeImagenesToolStripMenuItem.Name = "visorDeImagenesToolStripMenuItem";
-            this.visorDeImagenesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.visorDeImagenesToolStripMenuItem.Text = "Visor de Imagenes";
-            this.visorDeImagenesToolStripMenuItem.Click += new System.EventHandler(this.visorDeImagenesToolStripMenuItem_Click);
             // 
             // FormaHome
             // 
