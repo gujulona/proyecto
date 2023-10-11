@@ -29,11 +29,10 @@ namespace proyecto1
 
         private void showButton_Click(object sender, EventArgs e)
         {
-            if( openFileDialog1.ShowDialog() == DialogResult.OK)
-            {
-
-                // Muestra el cuadro de diálogo Abrir archivo. Si el usuario hace clic en Aceptar, carga el
-                // imagen que eligió el usuario.            
+            // Muestra el cuadro de diálogo Abrir archivo. Si el usuario hace clic en Aceptar, carga el
+            // imagen que eligió el usuario. 
+            if ( openFileDialog1.ShowDialog() == DialogResult.OK)
+            {           
                     pictureBox1.Load(openFileDialog1.FileName);
 
             }
