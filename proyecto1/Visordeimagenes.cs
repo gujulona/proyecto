@@ -69,5 +69,10 @@ namespace proyecto1
             else
                 pictureBox1.SizeMode = PictureBoxSizeMode.Normal;
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

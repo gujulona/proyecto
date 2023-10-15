@@ -87,5 +87,12 @@ namespace proyecto1.Formu
             formaVisor.Show();
 
         }
+
+        private void pruebaMatematicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormaPrueba prueba = new FormaPrueba();
+            prueba.Show();
+
+        }
     }
 }

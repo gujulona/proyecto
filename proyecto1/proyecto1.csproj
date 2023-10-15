@@ -82,6 +82,12 @@
     <Compile Include="FormaLPM.Designer.cs">
       <DependentUpon>FormaLPM.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormaPrueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaPrueba.Designer.cs">
+      <DependentUpon>FormaPrueba.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormaSalario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormaLPM.resx">
       <DependentUpon>FormaLPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaPrueba.resx">
+      <DependentUpon>FormaPrueba.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormaSalario.resx">
       <DependentUpon>FormaSalario.cs</DependentUpon>

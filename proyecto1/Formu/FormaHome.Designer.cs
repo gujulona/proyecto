@@ -46,6 +46,7 @@ namespace proyecto1.Formu
             this.visorDeImagenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactanosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pruebaMatematicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +74,7 @@ namespace proyecto1.Formu
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -109,7 +110,8 @@ namespace proyecto1.Formu
             this.toolStripMenuItem2,
             this.ecuacionCuadraticaToolStripMenuItem,
             this.latidosPorMinutoToolStripMenuItem,
-            this.visorDeImagenesToolStripMenuItem});
+            this.visorDeImagenesToolStripMenuItem,
+            this.pruebaMatematicaToolStripMenuItem});
             this.ejerciciosToolStripMenuItem.Name = "ejerciciosToolStripMenuItem";
             this.ejerciciosToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.ejerciciosToolStripMenuItem.Text = "Ejercicios";
@@ -174,9 +176,16 @@ namespace proyecto1.Formu
             // contactanosToolStripMenuItem
             // 
             this.contactanosToolStripMenuItem.Name = "contactanosToolStripMenuItem";
-            this.contactanosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contactanosToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.contactanosToolStripMenuItem.Text = "Contactanos";
             this.contactanosToolStripMenuItem.Click += new System.EventHandler(this.contactanosToolStripMenuItem_Click);
+            // 
+            // pruebaMatematicaToolStripMenuItem
+            // 
+            this.pruebaMatematicaToolStripMenuItem.Name = "pruebaMatematicaToolStripMenuItem";
+            this.pruebaMatematicaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pruebaMatematicaToolStripMenuItem.Text = "Prueba Matematica";
+            this.pruebaMatematicaToolStripMenuItem.Click += new System.EventHandler(this.pruebaMatematicaToolStripMenuItem_Click);
             // 
             // FormaHome
             // 
@@ -218,5 +227,6 @@ namespace proyecto1.Formu
         private System.Windows.Forms.ToolStripMenuItem ecuacionCuadraticaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem latidosPorMinutoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem visorDeImagenesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pruebaMatematicaToolStripMenuItem;
     }
 }
