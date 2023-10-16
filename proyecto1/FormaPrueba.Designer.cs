@@ -54,6 +54,7 @@ namespace proyecto1
             this.quotiet = new System.Windows.Forms.NumericUpDown();
             this.startButton = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.sum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.difference)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).BeginInit();
@@ -62,25 +63,27 @@ namespace proyecto1
             // 
             // timeLabel
             // 
+            this.timeLabel.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.timeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeLabel.Location = new System.Drawing.Point(272, 9);
+            this.timeLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timeLabel.Location = new System.Drawing.Point(290, 9);
             this.timeLabel.Name = "timeLabel";
-            this.timeLabel.Size = new System.Drawing.Size(200, 30);
+            this.timeLabel.Size = new System.Drawing.Size(182, 28);
             this.timeLabel.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(150, 9);
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(177, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 25);
+            this.label1.Size = new System.Drawing.Size(104, 28);
             this.label1.TabIndex = 1;
             this.label1.Text = "Time Left";
             // 
             // plusLeftLabel
             // 
+            this.plusLeftLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.plusLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusLeftLabel.Location = new System.Drawing.Point(50, 75);
             this.plusLeftLabel.Name = "plusLeftLabel";
@@ -91,6 +94,7 @@ namespace proyecto1
             // 
             // minusLefthLabel
             // 
+            this.minusLefthLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.minusLefthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusLefthLabel.Location = new System.Drawing.Point(50, 125);
             this.minusLefthLabel.Name = "minusLefthLabel";
@@ -101,6 +105,7 @@ namespace proyecto1
             // 
             // timesLeftLabel
             // 
+            this.timesLeftLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.timesLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timesLeftLabel.Location = new System.Drawing.Point(50, 175);
             this.timesLeftLabel.Name = "timesLeftLabel";
@@ -111,6 +116,7 @@ namespace proyecto1
             // 
             // dividedLeftLabel
             // 
+            this.dividedLeftLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dividedLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dividedLeftLabel.Location = new System.Drawing.Point(50, 225);
             this.dividedLeftLabel.Name = "dividedLeftLabel";
@@ -131,6 +137,7 @@ namespace proyecto1
             // 
             // plusRightLabel
             // 
+            this.plusRightLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.plusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusRightLabel.Location = new System.Drawing.Point(182, 75);
             this.plusRightLabel.Name = "plusRightLabel";
@@ -166,17 +173,18 @@ namespace proyecto1
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(60, 50);
             this.label9.TabIndex = 10;
-            this.label9.Text = "*";
+            this.label9.Text = " ×";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
             // 
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(116, 225);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 50);
             this.label10.TabIndex = 11;
-            this.label10.Text = "/";
+            this.label10.Text = "÷";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
@@ -191,6 +199,7 @@ namespace proyecto1
             // 
             // label12
             // 
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(248, 175);
             this.label12.Name = "label12";
@@ -201,6 +210,7 @@ namespace proyecto1
             // 
             // label13
             // 
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(248, 225);
             this.label13.Name = "label13";
@@ -211,6 +221,7 @@ namespace proyecto1
             // 
             // minusRightLabel
             // 
+            this.minusRightLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.minusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusRightLabel.Location = new System.Drawing.Point(182, 125);
             this.minusRightLabel.Name = "minusRightLabel";
@@ -221,6 +232,7 @@ namespace proyecto1
             // 
             // timesRightLabel
             // 
+            this.timesRightLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.timesRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timesRightLabel.Location = new System.Drawing.Point(182, 175);
             this.timesRightLabel.Name = "timesRightLabel";
@@ -231,6 +243,7 @@ namespace proyecto1
             // 
             // dividedRightLabel
             // 
+            this.dividedRightLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dividedRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dividedRightLabel.Location = new System.Drawing.Point(182, 225);
             this.dividedRightLabel.Name = "dividedRightLabel";
@@ -279,13 +292,15 @@ namespace proyecto1
             // startButton
             // 
             this.startButton.AutoSize = true;
-            this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startButton.Location = new System.Drawing.Point(155, 310);
+            this.startButton.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.startButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.startButton.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startButton.Location = new System.Drawing.Point(137, 310);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(171, 39);
             this.startButton.TabIndex = 0;
-            this.startButton.Text = "Iniciar Prueba";
-            this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Text = "Iniciar ";
+            this.startButton.UseVisualStyleBackColor = false;
             this.startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
             // timer1
@@ -293,11 +308,23 @@ namespace proyecto1
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(407, 335);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(75, 17);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Tu puedes :]";
+            // 
             // FormaPrueba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(484, 361);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.quotiet);
             this.Controls.Add(this.product);
@@ -361,5 +388,6 @@ namespace proyecto1
         private System.Windows.Forms.NumericUpDown quotiet;
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label2;
     }
 }

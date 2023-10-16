@@ -140,7 +140,7 @@ namespace proyecto1
                 // If the user ran out of time, stop the timer, show
                 // a MessageBox, and fill in the answers.
                 timer1.Stop();
-                timeLabel.Text = "Se termino el tiempo!";
+                timeLabel.Text = "Tiempo terminado";
                 MessageBox.Show("No terminaste a tiempo", "Sorry!");
                 sum.Value = addend1 + addend2;
                 difference.Value = minuend - subtrahend;
